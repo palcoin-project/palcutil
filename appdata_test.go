@@ -11,6 +11,8 @@ import (
 	"runtime"
 	"testing"
 	"unicode"
+
+	"github.com/palcoin-project/palcutil"
 )
 
 // TestAppDataDir tests the API for AppDataDir to ensure it gives expected

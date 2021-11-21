@@ -14,6 +14,7 @@ import (
 
 	"github.com/palcoin-project/palcd/chaincfg"
 	"github.com/palcoin-project/palcd/wire"
+	"github.com/palcoin-project/palcutil"
 	"golang.org/x/crypto/ripemd160"
 )
 
