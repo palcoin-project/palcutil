@@ -12,6 +12,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/palcoin-project/palcd/chaincfg/chainhash"
+	"github.com/palcoin-project/palcutil"
 )
 
 // TestTx tests the API for Tx.
@@ -101,7 +102,7 @@ func TestTxHasWitness(t *testing.T) {
 	tx := palcutil.NewTx(msgTx)
 
 	tx.WitnessHash() // Populate the witness hash cache
-	tx.HasWitness()  // Should not fail (see palcoin-net/palcd#1543)
+	tx.HasWitness()  // Should not fail (see palcoin-project/palcd#1543)
 
 	if !tx.HasWitness() {
 		t.Errorf("HasWitness: got false, want true")

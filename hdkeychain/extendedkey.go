@@ -475,7 +475,7 @@ func (k *ExtendedKey) Neuter() (*ExtendedKey, error) {
 func (k *ExtendedKey) CloneWithVersion(version []byte) (*ExtendedKey, error) {
 	if len(version) != 4 {
 		// TODO: The semantically correct error to return here is
-		//  ErrInvalidHDKeyID (introduced in palcoin-net/palcd#1617). Update the
+		//  ErrInvalidHDKeyID (introduced in palcoin-project/palcd#1617). Update the
 		//  error type once available in a stable btcd / chaincfg release.
 		return nil, chaincfg.ErrUnknownHDKeyID
 	}
