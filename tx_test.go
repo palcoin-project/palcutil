@@ -2,7 +2,7 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil_test
+package palcutil_test
 
 import (
 	"bytes"
@@ -12,7 +12,6 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/palcoin-project/palcd/chaincfg/chainhash"
-	"github.com/palcoin-project/palcutil"
 )
 
 // TestTx tests the API for Tx.

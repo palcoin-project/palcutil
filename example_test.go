@@ -1,4 +1,4 @@
-package btcutil_test
+package palcutil_test
 
 import (
 	"fmt"

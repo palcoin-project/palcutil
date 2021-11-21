@@ -25,7 +25,7 @@ jobs:
           GO111MODULE: "on"
         run: |
           sh ./goclean.sh
-      - name: Send btcutil coverage
+      - name: Send palcutil coverage
         uses: shogo82148/actions-goveralls@v1
         with:
           path-to-profile: profile.cov

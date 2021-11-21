@@ -2,9 +2,10 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
+//go:build !appengine
 // +build !appengine
 
-package btcutil
+package palcutil
 
 import (
 	"net"
